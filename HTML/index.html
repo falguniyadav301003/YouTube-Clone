@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <nav class="flex-div">
+    <div class="nav-left flex-div">
+      <i class="fa-solid fa-bars menu-icon"></i>
+      <img src="logo.png" class="logo">
+    </div>
+    <div class="nav-middle flex-div">
+      <div class="search-box flex-div">
+        <input type="text" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <i class="fa-solid fa-microphone mic-icon"></i>
+    </div>
+    <div class="nav-right flex-div">
+      <button class="create-button">
+        <i class="fa-solid fa-plus"></i>
+        Create
+      </button>
+      <img src="notification.png">
+      <img src="Jack.png" class="user-icon">
+    </div>
+  </nav>
+  <div class="sidebar">
+    <div class="shortcut-links">
+      <a href=""><i class="fa-solid fa-house"></i>
+        <p>Home</p>
+      </a>
+      <a href=""><img src="shorts.png">
+        <p>Shorts</p>
+      </a>
+      <a href=""><img src="subscriprion.png">
+        <p>Subscriptions</p>
+      </a>
+      <hr>
+      <h3>You <i class="fa-solid fa-angle-right"></i></h3>
+      <a href=""><i class="fa-solid fa-eye" style="color:#606060;"></i>
+        <p>History</p>
+      </a>
+      <a href=""><i class="fa-solid fa-sliders"></i>
+        <p>Playlists</p>
+      </a>
+      <a href=""><i class="fa-brands fa-youtube"></i>
+        <p>Your videos</p>
+      </a>
+      <a href=""><i class="fa-regular fa-clock"></i>
+        <p>Watch Later</p>
+      </a>
+      <a href=""><i class="fa-regular fa-thumbs-up"></i>
+        <p>Liked videos</p>
+      </a>
+      <hr>
+    </div>
+    <div class="subscribed-list">
+     <h3>Subscriptions</h3>
+     <a><img src="Jack.png"><p>Jack Nicholson</p></a>
+     <a><img src="tom.png"><p>Tom Hardy</p></a>
+     <a><img src="simon.png"><p>Simon Baker</p></a>
+     <a><img src="megan.png"><p>Megan Ryan</p></a>
+     <a><img src="cameron.png"><p>Cameron Diaz</p></a>
+     <a href=""><i class="fa-solid fa-chevron-down" style="color:#5a5a5a;"></i>
+     <p style="margin-left: 10px; padding: 6px 8px; color: #5a5a5a;">Show More</p></a>    
+    </div>
+    <hr>
+    <div class="explore">
+    <h3>Explore</h3>
+    <a href=""><i class="fa-solid fa-fire"></i>
+      <p>Trending</p>
+    </a>
+    <a href=""><i class="fa-solid fa-bag-shopping"></i>
+      <p>Shopping</p>
+    </a>
+    <a href=""><i class="fa-solid fa-music"></i>
+      <p>Music</p>
+    </a>
+    <a href=""><i class="fa-solid fa-clapperboard"></i>
+      <p>Films</p>
+    </a>
+    <a href=""><img src="live.png">
+      <p>Live</p>
+    </a>
+    <a href=""><i class="fa-solid fa-gamepad"></i>
+      <p>Gaming</p>
+    </a>
+    <a href=""><i class="fa-solid fa-newspaper"></i>
+      <p>News</p>
+    </a>
+    <a href=""><i class="fa-solid fa-trophy"></i>
+      <p>Sport</p>
+    </a>
+    <a href=""><img src="courses.png">
+      <p>Courses</p>
+    </a>
+    <a href=""><img src="fashion.png">
+      <p>Fashion & Beauty</p>
+    </a>
+    <a href=""><i class="fa-solid fa-podcast"></i>
+      <p>Podcasts</p>
+    </a>
+    </div>
+    <hr>
+    <div class="more-youtube">
+      <a href=""><img src="premium.png">
+        <p>YouTube Premium</p>
+      </a>
+      <a href=""><img src="studio.png">
+        <p>YouTube Studio</p>
+      </a>
+      <a href=""><img src="music.png">
+        <p>YouTube Music</p>
+      </a>
+      <a href=""><img src="kids.png">
+        <p>YouTube Kids</p>
+      </a>
+    </div>
+    <hr>
+    <div class="option">
+      <a href=""><i class="fa-solid fa-gear"></i>
+        <p>Settings</p>
+      </a>
+      <a href=""><i class="fa-regular fa-flag"></i>
+        <p>Report history</p>
+      </a>
+      <a href=""><i class="fa-regular fa-circle-question"></i>
+        <p>Help</p>
+      </a>
+      <a href=""><i class="fa-solid fa-triangle-exclamation"></i>
+        <p>Send Feedback</p>
+      </a>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="list-container">
+      <div class="vid-list">
+        <a href="play-video.html"><img src="thumbnail1.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a href="play-video.html">Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail2.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail3.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail4.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail5.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail6.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail7.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail8.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail1.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail2.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail3.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail4.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail5.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail6.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail7.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail8.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail1.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail2.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail3.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail4.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail5.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail6.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail7.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+      <div class="vid-list">
+        <a><img src="thumbnail8.png" class="thumbnail"></a>
+        <div class="flex-div">
+          <img src="Jack.png">
+          <div class="vid-info">
+            <a>Best channel  to learn coding that help you to ba a web developer</a>
+            <p>Easy Tutorials <i class="fa-solid fa-circle-check"></i></p>
+            <p>15k Views &bull; 2 days</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
